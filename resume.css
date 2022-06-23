@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Coming+Soon&family=Joan&family=Lato&family=Shadows+Into+Light&display=swap');
+
+body {
+    font-size: 19px;
+    font-family: 'Joan', sans-serif, Verdana;
+    font-weight: normal;
+    background: rgb(230, 215, 215);
+}
+
+#gmail {
+    border-left: 2px solid black;
+    background: rgba(38, 202, 134, 0.5);
+    color: rgb(100, 116, 28);
+}
+
+.info {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 5px;
+    /* box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.25); */
+}
+
+.conteiner {
+    max-width: 750px;
+    margin: auto;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 15px;
+}
+
+.link a:hover {
+    color: rgb(230, 148, 25);
+    font-size: 1rem;
+}
+
+a {
+    color: rgb(100, 116, 28);
+    text-decoration: none;
+    transition: all .2s;
+}
+
+a:active {
+    color: blue;
+}
+
+#gmail:hover {
+    cursor: wait;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    background: rgba(208, 221, 173)
+}
+
+.menu a {
+    margin-bottom: 5px;
+    padding: 5px;
+    
+}
+
+.menu a:hover {
+    background: rgba(5, 146, 156, 0.808);
+}
+
+@media (max-width: 650px) {
+    .info {
+        text-align: center;
+    }
+
+    #MyHobby {
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .info li{
+        list-style: none;
+        text-align: left;
+    }
+}
